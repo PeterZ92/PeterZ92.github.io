@@ -32,7 +32,7 @@ table{
 }
 /*основная секция подчеркнуть строки*/
 tr{
-	border-bottom: 3px solid darkslateblue;
+	border-bottom: 2px solid darkslateblue;
 }
 
 /*делаем отступы в строках*/
@@ -64,14 +64,17 @@ table td{
 	
 }
 
-/*основной стиль текста*/
+/*основной стиль параграфа*/
 p{
 	width: 100%;
 	text-align: center;
-	height: 35px;
+	padding-top: 20px;
+	padding-bottom: 5px;
 	font-weight: bold;
 	color:powderblue;
 }
+
+
 
 /*стиль текстовых полей*/
 textarea{
